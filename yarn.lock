@@ -160,6 +160,11 @@
     "@babel/helper-string-parser" "^7.29.7"
     "@babel/helper-validator-identifier" "^7.29.7"
 
+"@esbuild/darwin-x64@0.27.7":
+  version "0.27.7"
+  resolved "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.27.7.tgz"
+  integrity sha512-rYnXrKcXuT7Z+WL5K980jVFdvVKhCHhUwid+dDYQpH+qu+TefcomiMAJpIiC2EM3Rjtq0sO3StMV/+3w3MyyqQ==
+
 "@esbuild/darwin-x64@0.28.2":
   version "0.28.2"
   resolved "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.28.2.tgz"
@@ -198,16 +203,6 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
-
-"@oxc-project/types@=0.133.0":
-  version "0.133.0"
-  resolved "https://registry.npmjs.org/@oxc-project/types/-/types-0.133.0.tgz"
-  integrity sha512-KzkdCd6Uxqnf6l3HOw1xfatAlUURA0g14cvBYFyJ5SaNOQbOUvBr9PKArcPcrNIeRsBdgcUzOGrhKveVpvOIGA==
-
-"@rolldown/pluginutils@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz"
-  integrity sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==
 
 "@rolldown/pluginutils@1.0.0-rc.3":
   version "1.0.0-rc.3"
@@ -257,7 +252,7 @@
   resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz"
   integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
-"@vitejs/plugin-react@^5.0.0":
+"@vitejs/plugin-react@5.2.0":
   version "5.2.0"
   resolved "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.2.0.tgz"
   integrity sha512-YmKkfhOAi3wsB1PhJq5Scj3GXMn3WvtQ/JC0xoopuHoXSdmtdStOpFrYaT1kie2YgFBcIe64ROzMYRjCrYOdYw==
@@ -312,7 +307,39 @@ electron-to-chromium@^1.5.402:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.405.tgz"
   integrity sha512-bNglH7lPH5l+yHOes7Zr4VqxhOy4BQ9ZBUX4VdoFgxMpzJk7W1ZoO3Vgd9Pxa9PyjQ76sfm2aKH/nzEcCNRlew==
 
-"esbuild@^0.27.0 || ^0.28.0", esbuild@0.28.2:
+esbuild@^0.27.0:
+  version "0.27.7"
+  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.27.7.tgz"
+  integrity sha512-IxpibTjyVnmrIQo5aqNpCgoACA/dTKLTlhMHihVHhdkxKyPO1uBBthumT0rdHmcsk9uMonIWS0m4FljWzILh3w==
+  optionalDependencies:
+    "@esbuild/aix-ppc64" "0.27.7"
+    "@esbuild/android-arm" "0.27.7"
+    "@esbuild/android-arm64" "0.27.7"
+    "@esbuild/android-x64" "0.27.7"
+    "@esbuild/darwin-arm64" "0.27.7"
+    "@esbuild/darwin-x64" "0.27.7"
+    "@esbuild/freebsd-arm64" "0.27.7"
+    "@esbuild/freebsd-x64" "0.27.7"
+    "@esbuild/linux-arm" "0.27.7"
+    "@esbuild/linux-arm64" "0.27.7"
+    "@esbuild/linux-ia32" "0.27.7"
+    "@esbuild/linux-loong64" "0.27.7"
+    "@esbuild/linux-mips64el" "0.27.7"
+    "@esbuild/linux-ppc64" "0.27.7"
+    "@esbuild/linux-riscv64" "0.27.7"
+    "@esbuild/linux-s390x" "0.27.7"
+    "@esbuild/linux-x64" "0.27.7"
+    "@esbuild/netbsd-arm64" "0.27.7"
+    "@esbuild/netbsd-x64" "0.27.7"
+    "@esbuild/openbsd-arm64" "0.27.7"
+    "@esbuild/openbsd-x64" "0.27.7"
+    "@esbuild/openharmony-arm64" "0.27.7"
+    "@esbuild/sunos-x64" "0.27.7"
+    "@esbuild/win32-arm64" "0.27.7"
+    "@esbuild/win32-ia32" "0.27.7"
+    "@esbuild/win32-x64" "0.27.7"
+
+esbuild@0.28.2:
   version "0.28.2"
   resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz"
   integrity sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==
@@ -384,7 +411,7 @@ lightningcss-darwin-x64@1.33.0:
   resolved "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.33.0.tgz"
   integrity sha512-Z5UPAxzrjlWNNyGy6i65cJzzvgJ5D3T6wMvs+gWpY9d7qRhANrxqAp6LhxIgZhWEw18RfJTGcRxjuLIBr+m8XQ==
 
-lightningcss@^1.32.0:
+lightningcss@^1.21.0:
   version "1.33.0"
   resolved "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz"
   integrity sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==
@@ -442,12 +469,12 @@ picocolors@^1.1.1:
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
-"picomatch@^3 || ^4", picomatch@^4.0.4:
+"picomatch@^3 || ^4", picomatch@^4.0.3, picomatch@^4.0.4:
   version "4.0.5"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz"
   integrity sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==
 
-postcss@^8.5.15, postcss@^8.5.23:
+postcss@^8.5.23, postcss@^8.5.6:
   version "8.5.23"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz"
   integrity sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==
@@ -476,31 +503,7 @@ react@^18.0.0, react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
-rolldown@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/rolldown/-/rolldown-1.0.3.tgz"
-  integrity sha512-i00lAJ2ks1BYr7rjNjKC7BcqAS7nVfiT3QX1SI5aY+AFHblCmaUf9OE9dbdzDvW6dJxbi2ZCZiy9v3CcwOiX3g==
-  dependencies:
-    "@oxc-project/types" "=0.133.0"
-    "@rolldown/pluginutils" "^1.0.0"
-  optionalDependencies:
-    "@rolldown/binding-android-arm64" "1.0.3"
-    "@rolldown/binding-darwin-arm64" "1.0.3"
-    "@rolldown/binding-darwin-x64" "1.0.3"
-    "@rolldown/binding-freebsd-x64" "1.0.3"
-    "@rolldown/binding-linux-arm-gnueabihf" "1.0.3"
-    "@rolldown/binding-linux-arm64-gnu" "1.0.3"
-    "@rolldown/binding-linux-arm64-musl" "1.0.3"
-    "@rolldown/binding-linux-ppc64-gnu" "1.0.3"
-    "@rolldown/binding-linux-s390x-gnu" "1.0.3"
-    "@rolldown/binding-linux-x64-gnu" "1.0.3"
-    "@rolldown/binding-linux-x64-musl" "1.0.3"
-    "@rolldown/binding-openharmony-arm64" "1.0.3"
-    "@rolldown/binding-wasm32-wasi" "1.0.3"
-    "@rolldown/binding-win32-arm64-msvc" "1.0.3"
-    "@rolldown/binding-win32-x64-msvc" "1.0.3"
-
-rollup@^4.59.0:
+rollup@^4.43.0, rollup@^4.59.0:
   version "4.59.0"
   resolved "https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz"
   integrity sha512-2oMpl67a3zCH9H79LeMcbDhXW/UmWG/y2zuqnF2jQq5uq9TbM9TVyXvA4+t+ne2IIkBdrLpAaRQAvo7YI/Yyeg==
@@ -551,7 +554,7 @@ source-map-js@^1.2.1:
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
-tinyglobby@^0.2.17:
+tinyglobby@^0.2.15:
   version "0.2.17"
   resolved "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz"
   integrity sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==
@@ -567,16 +570,17 @@ update-browserslist-db@^1.3.0:
     escalade "^3.2.0"
     picocolors "^1.1.1"
 
-"vite@^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0", vite@8.0.16:
-  version "8.0.16"
-  resolved "https://registry.npmjs.org/vite/-/vite-8.0.16.tgz"
-  integrity sha512-h9bXPmJichP5fLmVQo3PyaGSDE2n3aPuomeAlVRm0JLmt4rY6zmPKd59HYI4LNW8oTK7tlTsuC7l/m7awx9Jcw==
+"vite@^4.2.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0", vite@7.3.5:
+  version "7.3.5"
+  resolved "https://registry.npmjs.org/vite/-/vite-7.3.5.tgz"
+  integrity sha512-KuOaNhcnGFN2zIPGA7wRmzF+lJA1sea7rHq17aiJ++9lzY1WWG6Jpwqwe1KNbRVPIqHmr8GLYx7jbrQcN/7/ww==
   dependencies:
-    lightningcss "^1.32.0"
-    picomatch "^4.0.4"
-    postcss "^8.5.15"
-    rolldown "1.0.3"
-    tinyglobby "^0.2.17"
+    esbuild "^0.27.0"
+    fdir "^6.5.0"
+    picomatch "^4.0.3"
+    postcss "^8.5.6"
+    rollup "^4.43.0"
+    tinyglobby "^0.2.15"
   optionalDependencies:
     fsevents "~2.3.3"
 
